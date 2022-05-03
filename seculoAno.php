@@ -1,4 +1,12 @@
 <?php
+    // 1 - Função SeculoAno($ano)
+    // Desenvolva uma função que receba como parametro o ano e retorne o século ao qual este ano faz parte. O primeiro século começa no ano 1 e termina no ano 100, o segundo século começa no ano 101 e termina no 200.
+    
+    // Exemplos para teste:
+    
+    // Ano 1905 = século 20
+    // Ano 1700 = século 17
+
     function seculoAno($ano){
         // Inicializando a variável que vai guardar o século.
         $seculo = 0;
@@ -18,10 +26,10 @@
     // Exemplos
     $ex0 = seculoAno(1900);
     printf("O ano de 1900 é o Século $ex0.\n");
-    $ex1 = seculoAno(1901);
-    printf("O ano de 1901 é o Século $ex1.\n");
-    $ex2 = seculoAno(710);
-    printf("O ano de 710 é o Século $ex2.\n");
+    $ex1 = seculoAno(1905);
+    printf("O ano de 1905 é o Século $ex1.\n");
+    $ex2 = seculoAno(1700);
+    printf("O ano de 1700 é o Século $ex2.\n");
     $ex3 = seculoAno(1335);
     printf("O ano de 1335 é o Século $ex3.\n");
     $ex4 = seculoAno(-300);
